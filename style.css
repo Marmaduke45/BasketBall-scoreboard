@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Timer;
+    src: url(CursedTimerULiL.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    font-family: inter;
+    margin: 0;
+    background-color: #2EC4B6;
+}
+.wrapper{
+    max-width: 700px;
+    aspect-ratio: 1 / 1 ;
+    background-color:#071936;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: black 8px 8px 10px;
+    text-align: center;
+    color:#FDFFFC;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #FDFFFC;
+    font-size: 25px;
+}
+
+.screen{
+    font-family: Timer;
+    background-color: #080001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 155px;
+    color:#E71D36;
+    font-size: 100px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: transparent;
+    font-family: Timer;
+    border: 1px solid #FDFFFC;
+    color: #FDFFFC;
+    aspect-ratio: 1/1;
+    padding: 5px;
+    font-size: 20px;
+}
+.btn:active{
+    background-color: #FDFFFC;
+    color: #202025;
+}
+
+#reset-btn {
+    font-family: inherit;
+    display: block;
+    margin: 30px auto;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    font-weight: bold;
+}
+
+#reset-btn:active{
+    background-color: white;
+    color: #202025;
+}
